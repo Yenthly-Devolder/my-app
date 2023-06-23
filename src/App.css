@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+.jumboTron {
+  background-color: #050510;
+  background-image: url(../public/Rectangle\ 7.png);
+
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30%;
+  background-color: #050510;
+  padding-top: 1%;
+}
+
+.navBar img {
+  width: 8%;
+  padding-left: 5%;
+}
+
+.navBar > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 5%;
+}
+
+.navBar > ul > li {
+  color: #e1f4e3;
+  font-size: 29px;
+  font-weight: 700;
+}
+.jumboTron-text {
+  color: #e1f4e3;
+  padding-left: 10%;
+}
+
+.jumboTron-text > h1 {
+  padding-top: 10%;
+  font-size: 108px;
+  font-weight: 700;
+}
+
+.jumboTron-text > h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.about-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #e1f4e3;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-container {
+  width: 80%;
+  height: 80vh;
+  background: #050510;
+  display: flex;
+  justify-content: space-between;
+  color: #e1f4e3;
+  gap: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-container > img {
+  width: 40%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.about-text {
+  padding: 5%;
+  font-size: 1.4rem;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.projects-section {
+  background-color: #050510;
+  background-image: url(../public/projects.png);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.projects-container {
+  width: 80%;
+  height: 80vh;
+  background: #050510;
+  color: #e1f4e3;
+}
+
+.project img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.project img:hover {
+  width: 100%;
+  filter: grayscale(0%);
+}
+
+.projects-list {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding: 5%;
+  padding-top: 2.5%;
+}
+
+.project {
+  width: 33.3%;
+}
+
+.projects-container h2 {
+  padding-top: 2.5%;
+  font-size: 2rem;
+  margin: 0;
+  padding-left: 5%;
+}
+.project h3 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.project a {
+  text-decoration: none;
+  color: #e1f4e3;
+}
+
+.contact-section {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../public/gent.jpg);
+  filter: grayscale(100%);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 80%;
+  height: 80vh;
+  padding-left: 40%;
+  display: flex;
+  gap: 10%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 10%;
+}
+
+.contact-icons img{
+  width: 4rem;
+}
+
+.contact-form {
+  background-color: #e1f4e3;
+  height: 80%;
+  width: 45%;
+  padding: 5%;
+}
+
+.contact-form label{
+ padding-top: 30px;
+}
+.contact-form input, textarea{
+  width: 100%;
+}
+
+.contact-form textarea{
+  height: 150px;
 }

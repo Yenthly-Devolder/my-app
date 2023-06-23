@@ -8,7 +8,7 @@ export default function Contact() {
         </div>
         <div className="contact-form">
           <form>
-            <h1>CONTACT</h1>
+            <h2>CONTACT</h2>
             <label for="fname">Name</label>
             <br></br>
             <input type="text" id="fname" name="fname"></input>
@@ -22,7 +22,7 @@ export default function Contact() {
             <textarea name="comment" form="usrform">
               Enter text here...
             </textarea>
-            <input type="submit" value="Submit"></input>
+            <input type="submit" id="submit"value="Submit"></input>
           </form>
         </div>
       </div>

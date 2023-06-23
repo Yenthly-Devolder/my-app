@@ -1,13 +1,16 @@
+import Fade from 'react-reveal/Fade';
 export default function Projects() {
   return (
     <div className="projects-section">
+      <Fade right>
       <div className="projects-container">
         <h2>PROJECTS</h2>
         <div className="projects-list">
           <div className="project">
             <a href="https://yenthly.github.io/chessnest/">
+           
               <img src="../chessnest.png" alt="chessnest-website"></img>
-
+              
               <h3>Chessnest</h3>
 
               <p>
@@ -16,12 +19,14 @@ export default function Projects() {
                 chess courses and organises<br></br>
                 championships.
               </p>
+             
             </a>
           </div>
           <div className="project">
             <a href="https://yenthly.github.io/chessnest/">
+            
               <img src="../chessnest.png" alt="chessnest-website"></img>
-
+          
               <h3>Chessnest</h3>
 
               <p>
@@ -30,12 +35,14 @@ export default function Projects() {
                 chess courses and organises<br></br>
                 championships.
               </p>
+              
             </a>
           </div>
           <div className="project">
             <a href="https://yenthly.github.io/chessnest/">
+           
               <img src="../chessnest.png" alt="chessnest-website"></img>
-
+           
               <h3>Chessnest</h3>
 
               <p>
@@ -45,9 +52,11 @@ export default function Projects() {
                 championships.
               </p>
             </a>
+           
           </div>
         </div>
       </div>
+      </Fade>
     </div>
   );
 }

@@ -1,6 +1,10 @@
+import Fade from 'react-reveal/Fade';
+
 export default function About() {
     return(
+        
         <div className="about-section">
+            <Fade right>
             <div className="about-container">
                 <div className="about-text">
                     <h2>
@@ -13,16 +17,18 @@ export default function About() {
                     <br></br>
                     Currently I am in my second year<br></br>
                     of a bachelor in applied computer<br></br>
-                    science @HOGENT<br></br>
+                    science @<a href="https://www.hogent.be/en/" target="_blank">HOGENT</a><br></br>
                     <br></br>
-                    have a technical secondary<br></br>
+                    I have a technical secondary<br></br>
                     education degree in Multimedia.<br></br>
                     <br></br>
                     Interests: piano, music, geography and space!
                     </p>
                 </div>
-                <img src="../me.jpg" alt="photo of me"></img>
+                <img src="../ant2.jpg" alt="photo of me"></img>
             </div>
+            </Fade>
+            
         </div>
     )
 }

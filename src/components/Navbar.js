@@ -1,7 +1,9 @@
+import Logo from "../images/logo.png"
+
 export default function NavBar(){
     return(
         <nav className="navBar">
-            <img src="../logo.png" alt="logo"></img>
+            <img src={Logo} alt="logo"></img>
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -10,4 +12,4 @@ export default function NavBar(){
             </ul>
         </nav>
     )
-}
+}   

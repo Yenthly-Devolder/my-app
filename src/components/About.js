@@ -1,4 +1,5 @@
 import Fade from 'react-reveal/Fade';
+import logo from '../images/ant2.jpg'; // with import
 
 export default function About() {
     return(
@@ -25,7 +26,7 @@ export default function About() {
                     Interests: piano, music, geography and space!
                     </p>
                 </div>
-                <img src="../ant2.jpg" alt="photo of me"></img>
+                <img src={logo} alt="photo of me"></img>
             </div>
             </Fade>
             

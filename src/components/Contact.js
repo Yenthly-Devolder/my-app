@@ -1,10 +1,15 @@
+import Fade from 'react-reveal/Fade';
+import Insta from '../images/insta.png';
+import Whatsapp from '../images/whatsapp.png';
+
 export default function Contact() {
   return (
     <div className="contact-section" id="contact">
+      <Fade right>
       <div className="contact-container">
         <div className="contact-icons">
-          <img src="./icon _instagram_.png"></img>
-          <img src="./icon _whatsapp_.png"></img>
+          <img src={Insta}></img>
+          <img src={Whatsapp}></img>
         </div>
         <div className="contact-form">
           <form>
@@ -20,12 +25,12 @@ export default function Contact() {
             <label for="email">Message</label>
             <br></br>
             <textarea name="comment" form="usrform">
-              Enter text here...
             </textarea>
             <input type="submit" id="submit"value="Submit"></input>
           </form>
         </div>
       </div>
+      </Fade>
     </div>
   );
 }

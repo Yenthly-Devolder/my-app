@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <JumboTron />
       <About />
       <Projects />
-      <About />
+      <Skills />
       <Contact/>
       <Footer/>
     </div>

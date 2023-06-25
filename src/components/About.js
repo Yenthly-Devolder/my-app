@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 export default function About() {
     return(
         
-        <div className="about-section">
+        <div className="about-section" id="about">
             <Fade right>
             <div className="about-container">
                 <div className="about-text">

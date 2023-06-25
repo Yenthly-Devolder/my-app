@@ -1,7 +1,7 @@
 import Fade from 'react-reveal/Fade';
 export default function Projects() {
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects">
       <Fade right>
       <div className="projects-container">
         <h2>PROJECTS</h2>

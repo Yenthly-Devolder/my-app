@@ -2,7 +2,7 @@ import Fade from "react-reveal/Fade";
 
 export default function () {
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills">
       <div className="skills-container">
         <h2>SKILLS</h2>
         <table>

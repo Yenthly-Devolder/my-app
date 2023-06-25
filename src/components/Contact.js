@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <div className="contact-container">
         <div className="contact-icons">
           <img src="./icon _instagram_.png"></img>

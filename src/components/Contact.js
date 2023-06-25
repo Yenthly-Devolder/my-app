@@ -8,7 +8,8 @@ export default function Contact() {
       <Fade right>
       <div className="contact-container">
         <div className="contact-icons">
-          <img src={Insta}></img>
+          <a href='https://www.instagram.com/yenthly'><img src={Insta}></img></a>
+          
           <img src={Whatsapp}></img>
         </div>
         <div className="contact-form">

@@ -281,14 +281,15 @@
 .skills-container table{
   padding-left: 5%;
   padding-right: 5%;
+  width: 100%;
 }
 .skills-container td{
-  width: 25%;
+  width: 10%;
   height: 20vh;
   text-align: center;
 }
 
 
 .skills-container > table img{
-  width: 30%;
+  height: 10vh;
 }
